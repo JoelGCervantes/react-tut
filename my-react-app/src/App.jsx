@@ -1,19 +1,17 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import Food from './Food.jsx'
+import Button from './expirements/button'
 
 function App() {
 
   return (
+
     //<Header></Header> This is valid,but shorthand way below
+    // <></> = "fragement" used to technically return a single element
     <>
-      <Header />
-      <Food />
-      <Food />
-      <Food />
-      <Footer />
+      <Button />
     </>
+
   );
+
 }
 
 export default App
