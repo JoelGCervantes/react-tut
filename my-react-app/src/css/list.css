@@ -1,0 +1,23 @@
+.list-cat {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid;
+    background-color: rgba(127, 255, 212, 0.839);
+}
+
+.li-items li {
+    font-size: 2em;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.712);
+    text-align: center;
+    margin: 0;
+}
+
+.li-items li:hover {
+    color: rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+
+}
